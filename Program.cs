@@ -7,8 +7,9 @@ namespace Small_projects
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //String_Reverse.Reverse();
-            Pig_Latin.PigLatin();
+            String_Reverse.Reverse();
+            //Pig_Latin.PigLatin();
+            //Count_Vowels.CountVowels();
         }
     }
 }

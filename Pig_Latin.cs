@@ -9,11 +9,8 @@ namespace Small_projects
         public static void PigLatin()
         {
             string OriginalString = Console.ReadLine();
-            string FirstLetter = OriginalString.Substring(0, 1);
-            Console.WriteLine(FirstLetter);
             string PigLatinString = OriginalString.Substring(1);
-            Console.WriteLine(PigLatinString);
-            PigLatinString += "-" + FirstLetter + "ay";
+            PigLatinString += "-" + OriginalString[0] + "ay";
             Console.WriteLine("Pig latin string: " + PigLatinString);
         }
     }
